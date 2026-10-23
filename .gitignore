@@ -1,0 +1,13 @@
+# зависимости
+node_modules/
+# БД и загруженные файлы (не коммитим)
+backend/db.sqlite
+backend/uploads/*
+!backend/uploads/.gitkeep
+# сборка
+frontend/dist/
+# OS
+.DS_Store
+# секреты
+.env
+.env.local
